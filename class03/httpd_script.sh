@@ -1,6 +1,6 @@
-#!/bin/bash
-SERVICE='httpd'
-dirhttpd='/home/user40/homework/materials/class03/src/tinyhttpd/tinyhttpd/httpd'
+ #!/bin/bash
+ SERVICE='httpd'
+ dirhttpd='/home/user40/homework/materials/class03/src/tinyhttpd/tinyhttpd/httpd'
 
 if [[ "$(whoami)" == "root" ]] && pgrep -x $SERVICE
 then
